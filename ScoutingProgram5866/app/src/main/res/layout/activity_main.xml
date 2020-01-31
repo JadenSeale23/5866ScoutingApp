@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/qrLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_menu_share" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="15dp"
+            android:text="Ready For Next Match"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns = "3,5">
+
+        <TextView
+            android:id="@+id/teamNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="team number" />
+
+        <EditText
+            android:id="@+id/TeamNuminput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="4"
+            android:visibility="visible"
+            tools:targetApi="o" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/teamName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="team name" />
+
+        <EditText
+            android:id="@+id/teamNameinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="text"
+            tools:targetApi="o" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/vara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="balls scored" />
+
+        <EditText
+            android:id="@+id/varain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="4"
+            tools:targetApi="o" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/varb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stage reached (1-3)" />
+
+        <EditText
+            android:id="@+id/varbin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="1"
+            tools:targetApi="o" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/varc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rotation control" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <TextView
+            android:id="@+id/vard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="position control" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/vare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hang" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="notes" />
+
+        <EditText
+            android:id="@+id/notesin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight="2"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight="0"
+            android:text="@string/submit" />
+
+    </TableRow>
+
+</TableLayout>

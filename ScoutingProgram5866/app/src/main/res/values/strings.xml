@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Scouting Program 5866</string>
+    <string name="submit">Submit</string>
+    <string name="welcome_to_team_5866_s_scouting_program">Welcome to team 5866\'s Scouting program!</string>
+    <string name="textview">TextView</string>
+    <string name="speed_1_5">speed (1-5)</string>
+    <string name="input_speed_value_1_5">input speed value (1-5)</string>
+    <string name="submit_all_answers">Submit all answers</string>
+    <string name="input_team_number_scouted">input team number scouted</string>
+    <string name="team_number_scouted">Team Number scouted</string>
+    <string name="_5866">5866</string>
+    <string name="var_a">var a</string>
+    <string name="var_b">var b</string>
+    <string name="var_c">var c</string>
+    <string name="additional_notes">additional notes</string>
+    <string name="var_d">var d</string>
+    <string name="var_e">var e</string>
+    <string name="var_f">var f</string>
+    <string name="put_notes_here">put notes here:</string>
+    <string name="title_activity_qrcode">QRcode</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="team_name_scouted">Team Name scouted</string>
+</resources>
